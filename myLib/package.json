@@ -1,0 +1,16 @@
+{
+  "name": "myLib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "anylogger": "^1.0.10",
+    "typescript": "^4.1.3"
+  }
+}

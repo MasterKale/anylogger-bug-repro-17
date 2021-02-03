@@ -1,0 +1,24 @@
+{
+  "name": "delete-me-anylogger-recreation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "log=debug nodemon index.ts",
+    "start:node": "npm run build && log=debug node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "anylogger": "^1.0.10",
+    "anylogger-console": "^1.0.0",
+    "myLib": "../myLib",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1"
+  }
+}
