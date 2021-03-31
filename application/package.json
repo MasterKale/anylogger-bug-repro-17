@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "log=debug nodemon index.ts",
-    "start:node": "npm run build && log=debug node dist/index.js"
+    "start": "nodemon index.ts",
+    "start:node": "npm run build && node dist/index.js"
   },
   "keywords": [],
   "author": "",
