@@ -1,6 +1,6 @@
 import anylogger from 'anylogger';
 import 'anylogger-console';
-import { log } from 'myLib';
+import { log } from 'anylogger-bug-repro-17-my-lib';
 
 // The instance of anylogger in myLib doesn't seem to be affected by any adapters
 log('hello from myLib log in application');
